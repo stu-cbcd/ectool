@@ -1,3 +1,5 @@
 FROM ecdocker/eflow-ce-server:9.0
 
-ENTRYPOINT [ "/usr/bin/tail", "-f", "/dev/null" ]
+ENTRYPOINT ["/opt/electriccloud/electriccommander/bin/ectool"]
+#ENTRYPOINT [ "/usr/bin/tail", "-f", "/dev/null" ]
+
